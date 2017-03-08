@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.jbot.miintentexplicit.MainActivity"
+    android:background="#04f90c">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Button"
+        android:id="@+id/btnWeb"
+        android:background="#f70303"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marcar Button"
+        android:id="@+id/btnMarcar"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/btnVideo" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamar Button"
+        android:id="@+id/btnLlamar"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir Button"
+        android:id="@+id/btnAnadir"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="250dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alarma Button"
+        android:id="@+id/btnAlarma"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/btnCorreo"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Button"
+        android:id="@+id/btnCorreo"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cam Button"
+        android:id="@+id/btnCam"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_marginTop="350dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Button"
+        android:id="@+id/btnVideo"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="250dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS Button"
+        android:id="@+id/btnGPS"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comparte Button"
+        android:id="@+id/btnComparte"
+        android:background="#f70303"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

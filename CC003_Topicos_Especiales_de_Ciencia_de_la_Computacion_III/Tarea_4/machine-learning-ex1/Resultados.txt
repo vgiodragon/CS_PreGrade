@@ -1,0 +1,13 @@
+En el prorama ex1_multi, nos devuelve las graficas para los casos donde
+
+el parametro de aprendizaje (alpha) cambia entre:
+0.1, 0.3, 0.01, 0.03, 0.001, 0.003.
+
+donde se observa segun las graficas que conforme a mayor alpha,
+la gradiente desciende con mayor rapidez, eso significa que converge mas rapido.
+
+se adjunta las graficas para 5, 50, 500 y 400 iteraciones en la multivariable,
+
+y ademas se adjunta las graficas de la convegencia de la gradiente para cada alpha.
+
+y una grafica que contiene a todas las variaciones respecto de alpha, se observa la diferencia en como converge.

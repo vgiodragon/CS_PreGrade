@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Sesion">
+    <!--
+    <item android:id="@+id/MnuEditarInfo"
+        android:title="@string/action_editarInfo"
+        android:icon="@drawable/ic_menu_edit"
+        app:showAsAction="always" /> -->
+    <item android:id="@+id/MnuLogout"
+        android:title="@string/action_logout"
+        android:icon="@drawable/ic_menu_logout_1"
+        app:showAsAction="always"></item>
+</menu>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/MnuInfo" android:title="informacion Notas"
+        android:icon="@drawable/ic_menu_find_holo_dark"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/MnuHome" android:title="Home"
+        android:icon="@drawable/ic_menu_home"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/MnuEdit" android:title="Editar Datos"
+        android:icon="@drawable/ic_menu_edit"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/MnuLogout" android:title="Cerrar Sesion"
+        android:icon="@drawable/ic_menu_logout_1"
+        app:showAsAction="always"></item>
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MiMenu</string>
+    <string name="app_name1">Mi Activity Config</string>
+    <string name="action_config">Configuracion</string>
+    <string name="action_salir">Salir</string>
+    <string name="action_info">informacion</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MiIntentExplicit</string>
+    <string name="telefono">+51 943433979</string>
+    <string name="text">Hola soy Goku :D</string>
+    <string name="mail">felipe.moreno.vera@gmail.com</string>
+    <string name="subject">Este es un mensaje Kyaaaa</string>
+    <string name="envio">send email ...</string>
+</resources>

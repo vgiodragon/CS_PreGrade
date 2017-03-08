@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="#1B1B1B">
+    <TextView
+        android:id="@+id/lblListHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+        android:textSize="17dp"
+        android:drawableLeft="@drawable/ic_menu_archive"
+        android:textColor="#24793d" />
+
+</LinearLayout>
+<!--
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/textViewGroup"
+android:layout_width="wrap_content"
+android:layout_height="?android:attr/listPreferredItemHeight"
+android:layout_marginLeft="8dp"
+android:drawableRight="@drawable/ic_menu_archive"
+android:gravity="left"
+android:paddingLeft="32dp"
+android:paddingTop="8dp"
+android:text="Test"
+android:textSize="14sp"
+android:textAlignment="textEnd"
+android:textStyle="bold" />-->

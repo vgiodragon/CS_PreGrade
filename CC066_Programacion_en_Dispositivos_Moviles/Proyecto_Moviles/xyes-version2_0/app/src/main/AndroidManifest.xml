@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.proyectomoviles">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StartApp"
+            android:label="@string/title_activity_inicio_app"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VerNotas"
+            android:label="@string/title_activity_ver_notas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EdicionDatos"
+            android:label="@string/title_activity_edicion_datos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModificarDatos"
+            android:label="@string/title_activity_modificar"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".Sesion"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+    </application>
+
+</manifest>

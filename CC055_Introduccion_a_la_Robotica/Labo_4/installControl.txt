@@ -1,0 +1,6 @@
+instalar:
+sudo apt-get install liboctave-dev
+
+en octave:
+pkg install control
+

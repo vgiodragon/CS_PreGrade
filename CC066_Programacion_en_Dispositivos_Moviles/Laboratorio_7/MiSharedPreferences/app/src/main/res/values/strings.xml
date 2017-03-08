@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MiSharedPreferences</string>
+    <string name="action_preference">Preferencias</string>
+    <string name="title_activity_mis_preferencias">MisPreferencias</string>
+</resources>

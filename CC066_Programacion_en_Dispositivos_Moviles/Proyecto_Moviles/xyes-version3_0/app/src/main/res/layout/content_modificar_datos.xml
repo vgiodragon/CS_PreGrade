@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EditInfo"
+    tools:showIn="@layout/activity_modificar_datos">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNombre"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Nombres : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNombre1"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textNombre" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApellidoP"
+        android:layout_below="@+id/textNombre"
+        android:text="Apellido Paterno : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApellidoP1"
+        android:text=""
+        android:layout_below="@+id/textNombre"
+        android:layout_toRightOf="@+id/textApellidoP" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApellidoM"
+        android:layout_below="@+id/textApellidoP"
+        android:text="Apellido Materno : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApellidoM1"
+        android:text=""
+        android:layout_below="@+id/textApellidoP"
+        android:layout_toRightOf="@+id/textApellidoM" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCodigo"
+        android:layout_below="@+id/textApellidoM"
+        android:text="Codigo : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCodigo1"
+        android:text=""
+        android:layout_below="@+id/textApellidoM"
+        android:layout_toRightOf="@+id/textCodigo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCiclo"
+        android:layout_below="@+id/textCodigo"
+        android:text="Ciclo : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCiclo1"
+        android:text=""
+        android:layout_below="@+id/textCodigo"
+        android:layout_toRightOf="@+id/textCodigo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFacultad"
+        android:layout_below="@+id/textCiclo"
+        android:text="Facultad : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFacultad1"
+        android:text=""
+        android:layout_below="@+id/textCiclo"
+        android:layout_toRightOf="@+id/textFacultad" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEsp"
+        android:layout_below="@+id/textFacultad"
+        android:text="Especialidad : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEsp1"
+        android:text=""
+        android:layout_below="@+id/textFacultad"
+        android:layout_toRightOf="@+id/textEsp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCel"
+        android:layout_below="@+id/textEsp"
+        android:text="Celular : " />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCel1"
+        android:text=""
+        android:layout_below="@+id/textCel"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEmail"
+        android:layout_below="@+id/textCel1"
+        android:text="Mail : " />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEmail1"
+        android:text=""
+        android:layout_below="@+id/textEmail"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

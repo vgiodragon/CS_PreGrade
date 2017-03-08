@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.jbot.migooglemapsapi.MainActivity">
+    <item
+        android:id="@+id/MenuOpcion1"
+        android:title="Normal"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/MenuOpcion2"
+        android:title="Satélite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/MenuOpcion3"
+        android:title="Terreno"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/MenuOpcion4"
+        android:title="Híbrido"
+        app:showAsAction="never" />
+</menu>

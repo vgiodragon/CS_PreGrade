@@ -1,0 +1,21 @@
+;programa q enciende los 4 bits
+;menos significativos del puerto p1
+
+delay equ 118h
+	org 8000h
+	mov P1,#0	;apaga leds
+	mov A,#0
+repite:
+	mov R0,A
+	mov A,#3	;100 milisegundos
+	lcall delay	;retardo
+	mov A,R0
+	rl A
+	mov P1,A
+	mov R0,A
+	mov A,#3
+	lcall delay
+	mov A,P1
+	sjmp repite
+	
+end

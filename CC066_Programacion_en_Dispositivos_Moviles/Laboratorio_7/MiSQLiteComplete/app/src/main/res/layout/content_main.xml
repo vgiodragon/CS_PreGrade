@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jbot.misqlite.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dni"
+        android:id="@+id/textDNI"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/editDNI"
+        android:layout_below="@id/textDNI"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre y apellido"
+        android:id="@+id/textNombre"
+        android:layout_below="@id/editDNI"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/editNombre"
+        android:layout_below="@id/textNombre"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre del colegio"
+        android:id="@+id/textColegio"
+        android:layout_below="@id/editNombre"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/editColegio"
+        android:layout_below="@id/textColegio"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="numero de mesa"
+        android:id="@+id/textMesa"
+        android:layout_below="@id/editColegio"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/editMesa"
+        android:layout_below="@+id/textMesa"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alta"
+        android:id="@+id/btnAlta"
+        android:onClick="alta"
+        android:layout_below="@+id/editMesa"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baja"
+        android:id="@+id/btnBaja"
+        android:onClick="baja"
+        android:layout_alignBottom="@+id/btnAlta"
+        android:layout_toEndOf="@+id/btnAlta" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulta"
+        android:id="@+id/btnCons"
+        android:onClick="consulta"
+        android:layout_alignTop="@+id/btnBaja"
+        android:layout_toEndOf="@+id/btnBaja" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificacion"
+        android:id="@+id/btnModif"
+        android:onClick="modificacion"
+        android:layout_alignTop="@+id/btnCons"
+        android:layout_toEndOf="@+id/btnCons" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:id="@+id/btnInicio"
+        android:onClick="inicio"
+        android:layout_below="@+id/btnAlta"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anterior"
+        android:id="@+id/btnAnt"
+        android:onClick="anterior"
+        android:layout_alignTop="@+id/btnInicio"
+        android:layout_toEndOf="@+id/btnInicio" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        android:id="@+id/btnSig"
+        android:onClick="siguiente"
+        android:layout_alignTop="@+id/btnInicio"
+        android:layout_toEndOf="@+id/btnAnt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fin"
+        android:id="@+id/btnFin"
+        android:onClick="fin"
+        android:layout_alignTop="@+id/btnInicio"
+        android:layout_toEndOf="@+id/btnSig" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset Info"
+        android:id="@+id/btnResetInfo"
+        android:layout_below="@+id/btnInicio"
+        android:layout_alignParentStart="true"
+        android:onClick="onReset"/>
+
+
+</RelativeLayout>

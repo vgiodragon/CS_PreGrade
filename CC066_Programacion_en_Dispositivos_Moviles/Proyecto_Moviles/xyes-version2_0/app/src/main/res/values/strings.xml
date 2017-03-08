@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">Home Page</string>
+    <!-- Contenido Pantalla de Login -->
+    <string name="login">Intranet</string>
+    <string name="btnLogin">Ingresar</string>
+    <string name="txtUser">Código</string>
+    <string name="txtPass">Clave</string>
+    <string name="title_activity_inicio_app">Xyes project</string>
+    <!-- Contenido Pantalla de Inicio App -->
+    <string name="intranet">Intranet</string>
+    <string name="title_activity_ver_notas">Ver notas</string>
+    <string name="title_activity_edicion_datos">Edicion de datos</string>
+    <string name="title_activity_modificar">Modificar datos</string>
+</resources>

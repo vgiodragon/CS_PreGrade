@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/MnuOpc1" android:title="Opcion1"
+        android:icon="@drawable/ic_menu_home"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/MnuOpc2" android:title="Opcion2"
+        android:icon="@drawable/ic_menu_info_details"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/MnuOpc3" android:title="Opcion3"
+        android:icon="@drawable/ic_menu_manage"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/MnuOpc4" android:title="Opcion4"
+        android:icon="@drawable/ic_menu_logout_1"
+        app:showAsAction="always"></item>
+</menu>

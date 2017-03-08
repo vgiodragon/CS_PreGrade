@@ -1,0 +1,27 @@
+<resources>
+    <!-- Nombre del launcher -->
+    <string name="app_launcher">Meow</string>
+
+    <!-- Nombre de actividades -->
+    <string name="activity_app_start">Xyes project</string>
+    <string name="activity_app_login">Login</string>
+    <string name="activity_app_sesion">Sesion</string>
+
+    <!-- Contenido Pantalla de Start App -->
+    <string name="intranet">Intranet</string>
+
+    <!-- Contenido Pantalla de Login -->
+    <string name="action_login">Acceder</string>
+    <string name="action_codAlumno">Codigo alumno</string>
+    <string name="action_contrasena">Contrasena</string>
+
+    <!-- Contenido de menu de actionBar -->
+    <string name="action_editarInfo">Editar</string>
+    <string name="action_logout">Cerrar sesion</string>
+
+    <!-- Sin uso -->
+    <string name="title_activity_ver_notas">Ver notas</string>
+    <string name="title_activity_modificar">Modificar datos</string>
+    <string name="title_activity_edicion_datos">meow</string>
+
+</resources>

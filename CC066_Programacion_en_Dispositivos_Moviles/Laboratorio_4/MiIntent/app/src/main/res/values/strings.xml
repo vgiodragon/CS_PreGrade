@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Primera Pantalla</string>
+    <string name="app_name1">Segunda Actividad</string>
+    <string name="app_name2">Tercera Actividad</string>
+</resources>

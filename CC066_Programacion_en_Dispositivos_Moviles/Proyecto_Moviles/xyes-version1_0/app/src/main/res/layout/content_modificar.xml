@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.proyectomoviles.ModificarActivity"
+    tools:showIn="@layout/activity_modificar">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/btnCancelar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/btnGuardar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNombre"
+        android:layout_below="@+id/btnCancelar"
+        android:text="Nombres : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNombre1"
+        android:layout_below="@+id/btnCancelar"
+        android:text="Felipe Adrian"
+        android:layout_toEndOf="@+id/textNombre" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApellido"
+        android:layout_below="@+id/textNombre"
+        android:text="Apellidos : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textApellido1"
+        android:text="Moreno Vera"
+        android:layout_below="@+id/textNombre"
+        android:layout_toEndOf="@+id/textApellido" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDNI"
+        android:layout_below="@+id/textApellido"
+        android:text="DNI : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDNI1"
+        android:text="729"
+        android:layout_below="@+id/textApellido"
+        android:layout_toEndOf="@+id/textDNI" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCodigo"
+        android:layout_below="@+id/textDNI"
+        android:text="Codigo : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCodigo1"
+        android:text="20120354I"
+        android:layout_below="@+id/textDNI"
+        android:layout_toEndOf="@+id/textCodigo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCiclo"
+        android:layout_below="@+id/textCodigo"
+        android:text="Ciclo : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCiclo1"
+        android:text="7mo"
+        android:layout_below="@+id/textCodigo"
+        android:layout_toEndOf="@+id/textCodigo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFacultad"
+        android:layout_below="@+id/textCiclo"
+        android:text="Facultad : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textFacultad1"
+        android:text="Ciencias"
+        android:layout_below="@+id/textCiclo"
+        android:layout_toEndOf="@+id/textFacultad" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEsp"
+        android:layout_below="@+id/textFacultad"
+        android:text="Especialidad : " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEsp1"
+        android:text="Ciencias de la Computacion"
+        android:layout_below="@+id/textFacultad"
+        android:layout_toEndOf="@+id/textEsp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTel"
+        android:layout_below="@+id/textEsp"
+        android:text="Telefono fijo : " />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTel1"
+        android:text="6254525"
+        android:layout_below="@+id/textTel"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCel"
+        android:layout_below="@+id/textTel1"
+        android:text="Celular : " />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCel1"
+        android:text="+51 993227957"
+        android:layout_below="@+id/textCel"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDom"
+        android:layout_below="@+id/textCel1"
+        android:text="Domicilio : " />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDom1"
+        android:text="Magdalena"
+        android:layout_below="@+id/textDom"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEmail"
+        android:layout_below="@+id/textDom1"
+        android:text="Mail : " />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textEmail1"
+        android:text="felipe.moreno.v@uni.pe"
+        android:layout_below="@+id/textEmail"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

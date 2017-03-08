@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jbot.midbaplication.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesion"
+        android:id="@+id/textIniciar"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="usuario"
+        android:id="@+id/textUser"
+        android:layout_alignBottom="@+id/editUser"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUser"
+        android:inputType="text"
+        android:layout_below="@+id/textIniciar"
+        android:layout_toEndOf="@+id/textUser" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="clave"
+        android:id="@+id/textKey"
+        android:layout_alignBottom="@+id/editKey"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editKey"
+        android:inputType="textPassword"
+        android:layout_below="@+id/textUser"
+        android:layout_toEndOf="@+id/textKey" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar por Get"
+        android:id="@+id/btnGet"
+        android:onClick="login"
+        android:layout_below="@+id/textKey"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="61dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar por Post"
+        android:id="@+id/btnPost"
+        android:onClick="loginPost"
+        android:layout_alignTop="@+id/btnGet"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Metodo sesion"
+        android:id="@+id/textSesion"
+        android:layout_below="@+id/btnGet"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="59dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sesion status"
+        android:id="@+id/textStatus"
+        android:layout_below="@+id/textSesion"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Rol de sesion"
+        android:id="@+id/textRol"
+        android:layout_below="@+id/textStatus"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="escoger metodo"
+        android:id="@+id/textMetodo"
+        android:layout_alignTop="@+id/textSesion"
+        android:layout_alignStart="@+id/btnPost" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="no inicio sesion"
+        android:id="@+id/textIniSes"
+        android:layout_alignTop="@+id/textStatus"
+        android:layout_alignStart="@+id/textMetodo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="no asignado"
+        android:id="@+id/textAsignado"
+        android:layout_alignTop="@+id/textRol"
+        android:layout_alignStart="@+id/textIniSes" />
+
+
+</RelativeLayout>
