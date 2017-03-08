@@ -1,4 +1,4 @@
-  # Computer Science - UNI - Peru
+# Computer Science - UNI - Peru
 
 Cursos y tareas de estudios de pregrado en Ciencia de la Computacion.
 
