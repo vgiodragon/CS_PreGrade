@@ -1,3 +1,4 @@
 *.pyc
 .Rhistory
 a.out
+*.hex
