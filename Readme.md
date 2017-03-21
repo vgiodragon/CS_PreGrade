@@ -2,7 +2,7 @@
 
 Cursos y tareas de estudios de pregrado en Ciencia de la Computacion.
 
-Periodo de 2012-I - 2017-I en la Universidad Nacional de Ingenieria.
+Periodo del 2012-I al 2017-I en la Universidad Nacional de Ingenieria.
 
 ## Periodo 2012-I:
 
